@@ -1,0 +1,35 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    height: 90vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.card > img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card > #heading {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.card > #para {
+    padding: 0 1.1rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+}
